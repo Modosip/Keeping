@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>HOTELS</title>
+</head>
+
+<body>
+    <header class="main_header">
+        <a class="main_header_logo" href="index.html">
+            <img src="images/main_logo.png" alt="Логотип" width="138" height="70">
+        </a>
+        <nav class="main_navigation">
+            <ul class="site_navigation">
+                <li><a href="#info">ИНФОРМАЦИЯ</a></li>
+                <li><a href="#photo_video">ФОТО И ВИДЕО</a></li>
+                <li><a href="#state_map">КАРТА ШТАТА</a></li>
+                <li><a href="hotels.html"></a>ГОСТИНИЦЫ</li>
+            </ul>
+        </nav>
+    </header>
+    <section class="filter">
+        <fieldset>
+            <legend>Инфраструктура</legend>
+            <div>
+                <input type="checkbox" id="pool" name="i_want[]" value="pool">
+                <label for="pool">Бассейн</label>
+            </div>
+            <div>
+                <input type="checkbox" id="parking" name="i_want[]" value="parking">
+                <label for="parking">Парковка</label>
+            </div>
+            <div>
+                <input type="checkbox" id="wi_fi" name="i_want[]" value="wi_fi">
+                <label for="wi_fi">Wi-Fi</label>
+            </div>
+            <legend class>Тип жилья</legend>
+            <div>
+                <input type="checkbox" id="hotel" name="i_want[]" value="hotel">
+                <label for="hotel">Отель</label>
+            </div>
+            <div>
+                <input type="checkbox" id="motel" name="i_want[]" value="motel">
+                <label for="motel">Мотель</label>
+            </div>
+            <div>
+                <input type="checkbox" id="apartament" name="i_want[]" value="apartament">
+                <label for="apartament">Аппартаменты</label>
+            </div>
+            <legend>Стоимость в сутки</legend>
+            <div>
+                <table>
+                    <tr>
+                        <td>От 0</td>
+                        <td>до 3000</td>
+                    </tr>
+                </table>
+                <img src="#" alt="Ползунок">
+                <button class="show">показать</button>
+            </div>
+        </fieldset>
+    </section>
+    <main class="hotels_container">
+        <h1 class="visual_hiiden">HOTELS SEDONA</h1>
+        <ul class="hotel_finder">
+            <li class="hotel_finder_item">
+                <img class="hotel_pic" src="#" alt="">
+                <h2 class="hotels_name">Amara Resort & Spa</h2>
+                <span class="hotels_type">Гостиница</span>
+                <span class="hotels_cost">ОТ 4000 Р.</span>
+                <button class="more_info">Подробнее</button>
+                <button class="book">Забронировать</button>
+                <span class="rate_stars"><img class="4star" href="#">4звезды</span>
+                <span class="rate_words">Рейтинг: 8,5</span>
+            </li>
+            <li class="hotel_finder_item">
+                <img class="hotel_pic" src="#" alt="">
+                <h2 class="hotels_name">Desert Quail Inn</h2>
+                <span class="hotels_type">Мотель</span>
+                <span class="hotels_cost">ОТ 3000 Р.</span>
+                <button class="more_info">Подробнее</button>
+                <button class="book">Забронировать</button>
+                <span class="rate_stars"><img class="3star" href="#">3 звезды</span>
+                <span class="rate_words">Рейтинг: 8,9</span>
+            </li>
+            <li class="hotel_finder_item">
+                <img class="hotel_pic" src="#" alt="">
+                <h2 class="hotels_name">Villas at Poco Diablo</h2>
+                <span class="hotels_type">Апартаменты</span>
+                <span class="hotels_cost">ОТ 2000 Р.</span>
+                <button class="more_info">Подробнее</button>
+                <button class="book">Забронировать</button>
+                <span class="rate_stars"><img class="2star" href="#">2звезды</span>
+                <span class="rate_words">Рейтинг: 9,2</span>
+        </ul>
+        <sectin class="sort">
+            <span class="how_much_finded">НАЙДЕНО: 3</span>
+            <span>Сортировка</span>
+            <ul class="type_sort">
+                <li>По цене</li>
+                <li>По типу</li>
+                <li>По рейтингу</li>
+            </ul>
+            <button class="up_down_sort"><img src="#" alt="кнопка вверх"></button>
+            <button class="up_down_sort"><img src="#" alt="кнопка вниз"></button>
+        </sectin>
+    </main>
+    <footer class="main_footer">
+        <div class="footer_social">
+            <span class="visitsedona">#VISITSEDONA</span>
+            <p class="footer-copyright">
+                <b>WEBSITE:</b>
+                <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
+            </p>
+            <ul>
+                <li>
+                    <a class="social_button" href="#">Twitter</a>
+                </li>
+                <li>
+                    <a class="social_button" href="#">Фейсбук</a>
+                </li>
+                <li>
+                    <a class="social_button" href="#">YouTube</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
